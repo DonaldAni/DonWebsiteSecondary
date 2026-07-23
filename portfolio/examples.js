@@ -58,5 +58,6 @@ fetch("examples.json")
         BUTTON_RIGHT.addEventListener("click", function() {
             change(1)
         })
+        change(0)
     })
 
