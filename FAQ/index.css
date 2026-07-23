@@ -1,25 +1,58 @@
-@import "../shared/css/fonts.css";
-
-body {
-    /* background-color: #B4B4C7; */
-    background-image: linear-gradient(rgb(145, 166, 223), rgb(95, 94, 194));
-    background-attachment: fixed; /* prevents gradient from scrolling! hoho! */ 
-    height: 100%;
-
-    font-family: "comic sans";
-    font-size: 150%;
-
-    margin-left: 5%;
-    margin-right: 5%;
-}
 .container {
-  max-width: 1200px;  
-  width: 90%;       
-  margin: 0 auto;     
-  padding: 20px;    
-  background-color: #d0dbff; 
-  border: 7px solid #292647;    
+  	max-width: 1200px;  
+  	width: 90%;       
+  	margin: 0 auto;     
+  	padding: 20px;    
+  	background-color: #d0dbff; 
+  	border: 7px solid #292647;    
+
+	display: flex;
+		align-items: center;
+		justify-content: flex-start;
+		flex-direction: column;
+
+	box-shadow: inset 4px 4px 4px 0px rgba(0, 0, 0, 0.479);
+}
+.container hr {
+	width: 90%;
 }
 body {
-  text-align: center;
+	text-align: center;
+}
+
+.questionmsg {
+	color: gray;
+
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+	min-height: 4rem;
+
+	display: flex;
+		align-items: center;
+}
+.donaldmsg {
+	color: rgb(255, 102, 0);
+
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+	min-height: 4rem;
+
+	display: flex;
+		align-items: center;
+		justify-content: flex-end;
+}
+
+.message {
+	display: flex;
+		align-items: center;
+
+	width: 100%;
+}
+.icon {
+	width: 10%;
+	height: 100%;
+}
+.icon > img {
+	margin: 0;
+	padding: 0;
 }

@@ -1,0 +1,65 @@
+[
+    [
+        {
+            "text": [
+                "I thought DONALDANI.com was lost! how did you get it back?"
+            ],
+            "side": "left"
+        },
+        {
+            "text": [
+                "Good question! See, its a little hard on the specifics, im actually really unsure myself.",
+                "GoDaddy is a very bad place to get a website, let me just start there. USE CLOUDFLARE, PLEASE.",
+                "On 7/22/26 i have officially moved the domain \"DONALDANI.com\" to cloudflare"
+            ],
+            "side": "right"
+        }
+    ],
+
+    [
+        {
+            "text": [
+                "How is this website different from DONALDANI.org?"
+            ],
+            "side": "left"
+        },
+        {
+            "text": [
+                "Well, for starters im gonna be alot more blue as you can see.",
+                "But in all seriousness, this is for my work! The old comm page SUCKED.",
+                "This is a more organized place for all of my stuff that isnt the fun things."
+            ],
+            "side": "right"
+        }
+    ],
+
+    [
+        {
+            "text": [
+                "Will you work on my asym?"
+            ],
+            "side": "left"
+        },
+        {
+            "text": [
+                "<img src=\"img/slap-so-much-fun.gif\" width=\"30%\">"
+            ],
+            "side": "right"
+        }
+    ],
+
+    [
+        {
+            "text": [
+                "Does your DNI still apply to comms?"
+            ],
+            "side": "left"
+        },
+        {
+            "text": [
+                "Yes, my DNI still applies to my comms, Even if its professional stuff."
+            ],
+            "side": "right"
+        }
+    ]
+]
