@@ -55,4 +55,16 @@ body {
 .icon > img {
 	margin: 0;
 	padding: 0;
+
+	width: 100%;
+	max-width: 80px;
+
+	image-rendering: pixelated;
+}
+
+#lastupdated {
+	font-size: 80%;
+	margin-bottom: 2rem;
+
+	color: #FFFFFF7C;
 }
