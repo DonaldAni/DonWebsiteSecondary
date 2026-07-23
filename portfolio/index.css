@@ -1,0 +1,20 @@
+.parent-div {
+    width: 100%;
+    display: flex;
+}
+
+
+.raised-element {
+  width: 50%;
+  border-width: 5px;
+  border-style: outset;
+  border-color: #29313a;
+  background-color: aliceblue;
+  text-align: center;
+  align-items: center; 
+  gap: 20px;     
+}
+.icon {
+    vertical-align: middle;
+    image-rendering: pixelated;
+}
