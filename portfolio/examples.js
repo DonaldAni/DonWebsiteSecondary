@@ -26,6 +26,12 @@ function loadcarouselentry(entry) {
             let img = document.createElement("img")
                 img.src = entry.src
 
+            if(entry.linksto) {
+                img.addEventListener("click", function() {
+                    window.open(entry.linksto, '_blank');
+                })
+                img.style.cursor = "pointer"
+            }
             CAROUSEL.append(img)
         break
     }

@@ -2,11 +2,15 @@
     {
         "type": "video",
         "src": "img/examples/sunglasses.mp4",
-        "caption": "la la la la la"
+        "caption": "la la la la la",
+
+        "linksto": null
     },
     {
         "type": "img",
         "src": "img/examples/john.png",
-        "caption": "poo"
+        "caption": "poo",
+
+        "linksto": "https://gm48.net/game-jams/total-darkness/games/a-way-out"
     }
 ]
