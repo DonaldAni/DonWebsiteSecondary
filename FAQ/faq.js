@@ -23,7 +23,7 @@ fetch("faq.json")
                                 body.className = message.side == "left" ? "questionmsg" : 'donaldmsg'
                                 body.style.width = "80%"
 
-                                body.innerHTML = text
+                                body.innerHTML = `"${text}"`
                              msg.append(body)
 
                             let righticon = document.createElement("div")
