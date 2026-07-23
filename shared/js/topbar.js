@@ -1,6 +1,6 @@
 const BUTTONS = {
     "Home": "/home",
-    "Commissions": "/poop",
+    "Commissions": "/commissions",
     "FAQ": "../FAQ/",
     "Portfolio": "/poop"
 }
