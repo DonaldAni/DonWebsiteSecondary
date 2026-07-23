@@ -60,6 +60,11 @@
     display: flex;
         align-items: center;
         justify-content: center;
+        /* the arrow highlighting when i clicked the button annoyed me */
+    user-select: none;
+    -webkit-user-select: none;
+    outline: none;
+    -webkit-tap-highlight-color: transparent;
 }
 .button:hover {
     background-color: darkgray;
