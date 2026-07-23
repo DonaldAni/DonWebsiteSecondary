@@ -2,15 +2,29 @@
     {
         "type": "video",
         "src": "img/examples/sunglasses.mp4",
-        "caption": "la la la la la",
+        "caption": "FNFFD SUNGLASSES MIX - Sunglasses Team (Art 2025)",
 
         "linksto": null
     },
     {
         "type": "img",
         "src": "img/examples/john.png",
-        "caption": "poo",
+        "caption": "A WAY OUT - Team La La La (Art 2026)",
 
         "linksto": "https://gm48.net/game-jams/total-darkness/games/a-way-out"
+    },
+    {
+        "type": "img",
+        "src": "img/examples/runner.png",
+        "caption": "KTARRBT - Sunglasses Team (Art 2026)",
+
+        "linksto": "https://donaldani.org/games/runner/"
+    },
+    {
+        "type": "video",
+        "src": "img/examples/minesweeper.mp4",
+        "caption": "Minesweeper - Sunglasses Team (Art 2026)",
+
+        "linksto": null
     }
 ]
