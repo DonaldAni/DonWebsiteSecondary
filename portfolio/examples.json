@@ -1,0 +1,12 @@
+[
+    {
+        "type": "video",
+        "src": "img/examples/sunglasses.mp4",
+        "caption": "la la la la la"
+    },
+    {
+        "type": "img",
+        "src": "img/examples/john.png",
+        "caption": "poo"
+    }
+]

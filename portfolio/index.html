@@ -26,9 +26,23 @@
 
         <div class="raised-element">
             <h1>Examples of my work!</h1>
-            <video width="40%" controls>
-             <source src="img/examples/sunglasses.mp4">
-            </video>
+            <div class="carouselparent">
+                <div class="carouselbutton">
+                    <div class="button" id="leftbutton">&lt;</div>
+                </div>
+                <div class="carouselcontent" id="carousel">
+                    <!-- <video controls>
+                        <source src="img/examples/sunglasses.mp4">
+                    </video> -->
+                    <img class="example-img" src="img/examples/john.png">
+                </div>
+                <div class="carouselbutton">
+                    <div class="button" id="rightbutton">&gt;</div>
+                </div>
+            </div>
+            <p id="caption">
+                pee pee poo poo
+            </p>
         </div>
 
         </div>
@@ -37,3 +51,4 @@
     </body>
 </html>
 <script src="/shared/js/topbar.js"></script>
+<script src="examples.js"></script>
