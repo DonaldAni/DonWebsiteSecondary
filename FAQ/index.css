@@ -1,0 +1,25 @@
+@import "../shared/css/fonts.css";
+
+body {
+    /* background-color: #B4B4C7; */
+    background-image: linear-gradient(rgb(145, 166, 223), rgb(95, 94, 194));
+    background-attachment: fixed; /* prevents gradient from scrolling! hoho! */ 
+    height: 100%;
+
+    font-family: "comic sans";
+    font-size: 150%;
+
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.container {
+  max-width: 1200px;  
+  width: 90%;       
+  margin: 0 auto;     
+  padding: 20px;    
+  background-color: #d0dbff; 
+  border: 7px solid #292647;    
+}
+body {
+  text-align: center;
+}
