@@ -1,10 +1,32 @@
 [
     {
         "images": [
-            "sketch/sapsucker rays.png",
-            "sketch/sapsucker rays.png"
+            "sketch/artfulchuck.png",
+            "sketch/tanya.png",
+            "sketch/sketches.png",
+            "sketch/darcy doodles.png"
         ],
         "label": "basic sketch",
         "price": "$3"
+    },
+    {
+        "images": [
+            "sketch/darcydoodlecolor.png",
+            "sketch/lordx.png",
+            "sketch/alyanna.png",
+            "sketch/tanyacolor.png"
+        ],
+        "label": "colored & clean/rough lines",
+        "price": "$8"
+    },
+    {
+        "images": [
+            "sketch/kayla.png",
+            "sketch/kolossos.png",
+            "sketch/astras oc.png",
+            "sketch/tanyashade.png"
+        ],
+        "label": "clean lines & shaded",
+        "price": "$14"
     }
 ]
