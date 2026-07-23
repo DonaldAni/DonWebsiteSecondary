@@ -2,7 +2,7 @@ const BUTTONS = {
     "Home": "/home",
     "Commissions": "/commissions",
     "FAQ": "../FAQ/",
-    "Portfolio": "/poop"
+    "Portfolio": "/portfolio"
 }
 
 let style = document.createElement("link")
