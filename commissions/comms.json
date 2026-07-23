@@ -11,20 +11,20 @@
     },
     {
         "images": [
-            "sketch/darcydoodlecolor.png",
-            "sketch/lordx.png",
-            "sketch/alyanna.png",
-            "sketch/tanyacolor.png"
+            "colored/darcydoodlecolor.png",
+            "colored/lordx.png",
+            "colored/alyanna.png",
+            "colored/tanyacolor.png"
         ],
         "label": "colored & clean/rough lines",
         "price": "$8"
     },
     {
         "images": [
-            "sketch/kayla.png",
-            "sketch/kolossos.png",
-            "sketch/astras oc.png",
-            "sketch/tanyashade.png"
+            "shaded/kayla.png",
+            "shaded/kolossos.png",
+            "shaded/astras oc.png",
+            "shaded/tanyashade.png"
         ],
         "label": "clean lines & shaded",
         "price": "$14"

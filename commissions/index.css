@@ -25,13 +25,77 @@ body {
 
     margin-bottom: 1rem;
 }
-.imagerow > img {
-    height: 20rem;
-
+.imagerow > div {
     border: 8px solid black;
+}
+.imagerow > div > img {
+    height: 20rem;
+}
+
+.comm-img-container {
+    position: relative; /* Restricts absolute positioning to this box */
+    display: inline-block; /* Forces container to match image width */
+}
+.comm-img-container::after {
+    content: "";
+
+    position: absolute;
+        top: 0;
+        left: 0;
+
+    width: 100%;
+    height: 100%;
+    
+    pointer-events: none; /* can click on image still */
+}
+.comm-img-container:hover::after {
+    background-color: #FFFFFF7C;
+}
+
+.comm-img {
+    filter: none;
+    cursor: auto;
+
+    display: block;
+}
+.comm-img:hover {
+    cursor: pointer;
 }
 
 .caption > p {
     margin: 0;
     padding: 0;
+}
+
+#blanker {
+    position: fixed;
+        left:0;
+        right:0;
+        top:120px;
+        bottom:0;
+
+    background-color: #0000007C;
+
+    display:flex;
+        align-items: center;
+        justify-content: center;
+}
+#preview {
+    background-color: #474975;
+    height: 90%;
+
+    border: 8px solid black;
+    cursor: zoom-in;
+
+    display: block;
+}
+
+@media (max-width: 1420px) {
+    #blanker {
+        top: 0;
+    }
+    #preview {
+        width: 90%;
+        height: auto;
+    }
 }
